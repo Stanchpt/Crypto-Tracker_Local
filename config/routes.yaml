@@ -1,0 +1,19 @@
+index:
+  path: /
+  controller: App\Controller\Home::index
+
+Home:
+  path: /home
+  controller: App\Controller\Home::index
+
+add:
+  path: /Add
+  controller: App\Controller\Add::index
+
+delete:
+  path: /Delete
+  controller: App\Controller\Delete::index
+
+MesGains:
+  path: /MesGains
+  controller: App\Controller\MesGains::index

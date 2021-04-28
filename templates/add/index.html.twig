@@ -1,0 +1,23 @@
+{% extends 'add.html.twig' %}
+{% block title %}
+{% endblock %}
+
+{% block add %}
+<div id="Ajouter">
+    <div class="container">
+        <h1 class="mb-5" style="border-bottom: 0.1rem solid #1fc36c;">Ajouter une transaction</h1>
+
+        {{ form_start(form) }}
+        <br>
+        {{ form_row(form.Selectionner_une_crypto) }}
+        <br>
+        {{ form_row(form.Quantite) }}
+        <br>
+        {{ form_row(form.Prixdachat) }}
+            <br>
+            <input type="submit" class="btn btn-success" value="Ajouter" name="Ajouter">
+        {{ form_end(form) }}
+
+    </div>
+</div>
+{% endblock %}

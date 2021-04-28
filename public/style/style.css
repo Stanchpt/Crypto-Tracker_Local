@@ -1,0 +1,39 @@
+body{
+ background-color: #100f0f;
+    color: white;
+}
+
+#mainNav {
+    background-color: black;
+    font-weight: 300;
+}
+
+a
+{
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+li
+{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+.nav-link:hover
+{
+    color:#1fc36c;
+    border-bottom: 0.1rem solid #1fc36c;
+}
+
+.navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #1fc36c;
+    border: 1px solid #1fc36c;
+}
+
+h1{
+    color:#efefef;
+}

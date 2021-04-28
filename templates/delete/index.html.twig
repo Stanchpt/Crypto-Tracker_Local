@@ -1,0 +1,24 @@
+{% extends 'delete.html.twig' %}
+{% block title %}
+{% endblock %}
+
+{% block add %}
+<div id="Delete">
+    <div class="container">
+        <h1 class="mb-5" style="border-bottom: 0.1rem solid #1fc36c;">Supprimer un montant</h1>
+    </div>
+
+
+    {{ form_start(form) }}
+    <br>
+    {{ form_row(form.Selectionner_une_crypto) }}
+    <br>
+    {{ form_row(form.Quantite_de_crypto) }}
+    <br>
+    {{ form_row(form.Prix_de_la_transaction) }}
+    <br>
+    <input type="submit" class="btn btn-light" value="Valider" name="Valider">
+    {{ form_end(form) }}
+
+</div>
+{% endblock %}
